@@ -1,0 +1,69 @@
+body {
+    background-color: #47476b;
+}
+
+.listContainer {
+    margin: auto;
+    width: 50%;
+    background-color: #C7C7C7;
+    border: 3px;
+    border-color: black;
+}
+
+h1 {
+    text-align: center;
+}
+
+.title {
+    color: white;
+}
+
+ul li {
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+ul li:hover {
+    background: #919191;
+    cursor: pointer;
+}
+footer {
+    margin: auto;
+    width: 50%;
+    background-color: gray;
+    text-align: center;
+}
+
+.footText {
+    color: white;
+}
+
+.addBtn:hover {
+    cursor: pointer;
+}
+
+input {
+    width: 50%;
+    text-indent: 12px;
+}
+
+ul li:onclick {
+    background: rgb(139, 16, 16);
+    color: #fff;
+    text-decoration: line-through;
+}
+
+.close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+}
+
+.close:hover {
+    background-color: #f44336;
+    color: white;
+}
